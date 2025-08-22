@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cuda_runtime.h>
-#include <device_launch_parameters.h>
 #include "u256.cuh"
 
 __global__ void benchmark_u256_operations(u64* results, int num_operations) {
@@ -52,3 +51,4 @@ int main() {
     
     return 0;
 }
+
