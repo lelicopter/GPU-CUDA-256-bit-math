@@ -1,3 +1,5 @@
+**GPU (CUDA) 256 bit math with ptx asm optimization, using 64bit words.**
+
 - addition
 - subtraction
 - multiplication
