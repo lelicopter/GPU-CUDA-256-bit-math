@@ -10,7 +10,7 @@ __global__ void benchmark_u256_operations(u64* results, int num_operations) {
     u64 a[4], b[4], r[4];
     
     for (int i = 0; i < 4; i++) {
-        a[i] = idx + i + 1; // +1 çâ®¡ë ¨§¡¥¦ âì ¤¥«¥­¨ï ­  ­®«ì
+        a[i] = idx + i + 1;
         b[i] = idx * 2 + i + 1;
     }
     
@@ -52,4 +52,3 @@ int main() {
     
     return 0;
 }
-
